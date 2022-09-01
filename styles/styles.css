@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 0;
+    background-color: #ABAAAB;
+    color: #9C474F;
+}
+
+h1 {
+    text-align: center;
+    color: #78373F;
+    font-family: 'Candal', sans-serif;
+}
+
+h3 {
+    color: #78373F;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 0;
+}
+
+input[type=radio] {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 0;
+    vertical-align: bottom;
+    margin-right: 3%;
+}
+
+.main {
+    margin: 3% auto 5% auto;
+    width: 45%;
+    background-color: #E5E5E6;
+}
+
+.header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    width: 100%;
+}
+
+.part-div {
+    margin: 0 8% 4% 8%;
+    width: 85%;
+    display: inline-block;
+}
+
+.footer-div {
+    margin: 8% 8% 4% 8%;
+    width: 85%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2%;
+    width: 100%;
+}
+
+#small {
+    color: #585858;
+    font-size: 0.8rem;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+#date {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+#text {
+    width: 85%;
+    padding: 11px;
+    margin-top: 5%;
+}
+
+#submit-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    display: block;
+    height: 3rem;
+    color: white;
+    background-image: linear-gradient(#565656, #878787);
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    margin-top: 5%;
+}
