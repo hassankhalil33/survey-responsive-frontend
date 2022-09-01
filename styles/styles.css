@@ -36,6 +36,10 @@ input[type=radio] {
     background-color: #E5E5E6;
 }
 
+.flex {
+    display: flex;
+}
+
 .header {
     padding-top: 2%;
     padding-bottom: 2%;
