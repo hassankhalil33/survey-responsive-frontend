@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0 0 0 0;
+    margin: 0 3% 0 3%;
     background-color: #ABAAAB;
     color: #9C474F;
 }
@@ -60,6 +60,10 @@ input[type=radio] {
     margin: 8% 8% 4% 8%;
     width: 85%;
     display: inline-block;
+}
+
+.header-small {
+    width: 20rem;
 }
 
 .left {
