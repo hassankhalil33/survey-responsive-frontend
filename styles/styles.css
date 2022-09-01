@@ -14,6 +14,7 @@ h1 {
 h3 {
     color: #78373F;
     margin-bottom: 0;
+    width: 40rem;
 }
 
 div {
@@ -32,14 +33,15 @@ input[type=radio] {
 
 .main {
     margin: 3% auto 5% auto;
-    width: 45vw;
+    max-width: 50rem;
     background-color: #E5E5E6;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .header {
@@ -52,7 +54,6 @@ input[type=radio] {
 .part-div {
     margin: 0 8% 4% 8%;
     width: 85%;
-    display: inline-block;
 }
 
 .footer-div {
@@ -62,13 +63,11 @@ input[type=radio] {
 }
 
 .left {
-    float: left;
-    width: 50%;
+    width: 20rem;
 }
 
 .right {
-    float: right;
-    width: 50%;
+    width: 20rem;
 }
 
 .center {
@@ -79,7 +78,7 @@ input[type=radio] {
     width: 100%;
 }
 
-#small {
+.small {
     color: #585858;
     font-size: 0.8rem;
 }
