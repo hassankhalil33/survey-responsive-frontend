@@ -13,8 +13,8 @@ h1 {
 
 h3 {
     color: #78373F;
-    margin-bottom: 0;
-    width: 40rem;
+    margin-bottom: 1rem;
+    width: 42rem;
 }
 
 div {
@@ -67,11 +67,11 @@ input[type=radio] {
 }
 
 .left {
-    width: 20rem;
+    width: 21rem;
 }
 
 .right {
-    width: 20rem;
+    width: 21rem;
 }
 
 .center {
